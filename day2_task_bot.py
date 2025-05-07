@@ -10,8 +10,8 @@ import time
 import threading
 
 # Конфигурация
-BOT_TOKEN = "7837655156:AAEYFtHrBHTXM1fs5Am-JxzyBtXQj_U8z5c"
-OPENROUTER_API_KEY = "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"
+BOT_TOKEN = ""
+OPENROUTER_API_KEY = ""
 MODEL_NAME = "qwen/qwen3-4b:free"
 
 bot = telebot.TeleBot(BOT_TOKEN)
