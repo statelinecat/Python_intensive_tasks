@@ -26,7 +26,7 @@ class ThinkingIndicator:
 
 	def start(self):
 		"""Показывает сообщение 'Бот думает...'"""
-		msg = self.bot.send_message(self.chat_id, "🤖 Бот думает...")
+		msg = self.bot.send_message(self.chat_id, "🤖 Котик думает...")
 		self.message_id = msg.message_id
 
 	def stop(self):
